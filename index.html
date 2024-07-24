@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- CSS code -->
+  <style>
+
+    @font-face {
+      font-family: 'Figtree800';
+      src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
+    }
+
+    @font-face {
+      font-family: 'Figtree500';
+      src: url(./assets/fonts/static/Figtree-SemiBold.ttf);
+    }
+
+    @font-face {
+      font-family: 'Figtree';
+      src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+    }
+
+    body {
+      background-color: hsl(47, 88%, 63%);
+    }
+
+    .card-container {
+      background-color: hsl(0, 0%, 100%);
+      margin: auto;
+      position: absolute;
+      padding: 20px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 250px;
+      height: 350px;
+      border-radius: 15px;
+      box-shadow: 8px 8px 0 rgb(0, 0, 0);
+    }
+
+    img.header {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+    }
+
+    img.avatar {
+      width: 25px;
+      height: 25px;
+    }
+
+    .card-type {
+      margin-top: 15px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background-color: hsl(47, 88%, 63%);
+      font-family: 'Figtree800', sans-serif;
+      font-size: 12px;
+      border-radius: 5px;
+      width: fit-content;
+    }
+
+    .card-date {
+      margin-top: 10px;
+      font-family: 'Figtree500', sans-serif;
+      font-size: 12px;
+    }
+
+    .card-title {
+      margin-top: 12px;
+      font-family: 'Figtree800', sans-serif;
+      font-size: 20px;
+      transition: all 0.2s linear;
+      cursor: pointer;
+    }
+
+    .card-title:hover {
+      color: hsl(47, 88%, 63%);
+    }
+
+    .card-body {
+      margin-top: 15px;
+      font-family: 'Figtree', sans-serif;
+      font-size: 12px;
+      color: hsl(0, 0%, 42%);
+    }
+
+    .card-author {
+      margin-top: 15px;
+      /*
+      display: grid;
+      align-items: center; 
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 5px;*/
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    author {
+      font-family: 'Figtree800', sans-serif;
+      font-size: 12px;
+      margin-left: 10px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="card-container">
+    <img class="header" src="./assets/images/illustration-article.svg" alt="Prototyped image"/>
+
+    <div class="card-type">
+      Learning
+    </div>
+
+    <div class="card-date">
+      Published 21 Dec 2023
+    </div>
+
+    <div class="card-title">
+      HTML & CSS foundations
+    </div>
+
+    <div class="card-body">
+      These languages are the backbones of every website
+      , defining structure, content, and presentation.
+    </div>
+
+    <div class="card-author">
+      <img class="avatar" src="./assets/images/image-avatar.webp" alt="Author's avatar"/>
+      <author>Greg Hooper</author>
+    </div>
+
+  </div>
+</body>
+</html>
