@@ -8,7 +8,7 @@ The challenge is to build out this blog preview card and get it looking as close
 
 ### a) My screenshot
 
-![My screenshot for the QR code component coding challenge](./screenshot.jpeg)
+![My screenshot for the Blog preview card coding challenge](./screenshot.jpeg)
 
 ### b) Links
 
