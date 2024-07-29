@@ -4,7 +4,7 @@
 
 The challenge is to build out this blog preview card and get it looking as close to the design as possible.
 
-![Design preview for the QR code component coding challenge](./preview.jpg)
+![Design preview for the Blog preview card coding challenge](./preview.jpg)
 
 ### a) My screenshot
 
@@ -19,13 +19,12 @@ The challenge is to build out this blog preview card and get it looking as close
 
 ### a) Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- [Styled Components](https://styled-components.com/) - For styles
+- HTML
+- CSS
 
 ### b) What I learned
 
-- How to import fonts from file .ttf to the project.
+- How to import fonts from file *.ttf* to the project.
 - How to apply hover effect.
 - Some codes I am most proud of (which consist of knowledge I have learned):
 
