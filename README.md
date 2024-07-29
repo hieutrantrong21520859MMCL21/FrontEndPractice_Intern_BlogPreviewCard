@@ -26,6 +26,7 @@ The challenge is to build out this blog preview card and get it looking as close
 
 - How to import fonts from file *.ttf* to the project.
 - How to apply hover effect.
+- Use Media Query to ensure responsiveness of the website.
 - Some codes I am most proud of (which consist of knowledge I have learned):
 
 ```css
@@ -39,6 +40,39 @@ The challenge is to build out this blog preview card and get it looking as close
 
  .card-title:hover {
       color: hsl(47, 88%, 63%);
+}
+```
+```css
+/* Main Query */
+    @media screen and (max-width: 409px) {
+      .card-container {
+        width: 70%;
+      }
+
+      .card-type {
+        font-size: 12px;
+      }
+
+      .card-date {
+        font-size: 12px;
+      }
+
+      .card-title {
+        font-size: 18px;
+      }
+
+      .card-body {
+        font-size: 12px;
+      }
+
+      img.avatar {
+        width: 25px;
+        height: 25px;
+      }
+
+      p.author-name {
+        font-size: 12px;
+      }
 }
 ```
 
